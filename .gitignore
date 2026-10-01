@@ -1,0 +1,24 @@
+# bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# virtual environments and local secrets
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+token.json
+client_secret*.json
+
+# local outputs
+out/
+output/
+work/
+
+# generated media (not part of the source)
+*.mp4
+*.mov
+*.wav
+*.mp3
